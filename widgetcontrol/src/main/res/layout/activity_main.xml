@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" [ Wi-Fi 상태 정보 ] "
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:text="Wi-Fi ON/OFF 상태 : "
+            />
+        <TextView
+            android:id="@+id/wifionofftxt"
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:text="꺼짐"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:text="연결 상태 : "
+            />
+        <TextView
+            android:id="@+id/wificonntxt"
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:text="연결안됨"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:text="연결 AP : "
+            />
+        <TextView
+            android:id="@+id/apnametxt"
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:text="없음"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:text="연결 MAC 정보 : "
+            />
+        <TextView
+            android:id="@+id/macaddresstxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="없음"
+            />
+    </LinearLayout>
+</LinearLayout>
+
