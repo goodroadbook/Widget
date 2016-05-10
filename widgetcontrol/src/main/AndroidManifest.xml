@@ -30,18 +30,6 @@
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
             </intent-filter>
         </receiver>
-        <receiver
-            android:name="com.example.widgetcontrol.WidgetSupport2">
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/widget_config2"/>
-            <intent-filter >
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
-                <action android:name="com.example.androidwidget.WIFI_ONOFF"/>
-                <action android:name="com.example.androidwidget.UPDATE_TXT"/>
-                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
-            </intent-filter>
-        </receiver>
     </application>
 
 </manifest>
